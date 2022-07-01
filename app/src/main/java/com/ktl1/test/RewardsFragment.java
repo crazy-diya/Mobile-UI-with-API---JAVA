@@ -33,7 +33,6 @@ public class RewardsFragment extends Fragment {
 
     private RewardsAdapter rewardsAdapter, rewardsAdapter2;
     private RecyclerView recyclerView, recyclerView2;
-//    private ProgressBar progressBar;
     private List<DataModel> dataModelList = new ArrayList<>();
     private List<DataModel> dataModelList2 = new ArrayList<>();
     private CardView card3,card2,card1;
@@ -58,7 +57,6 @@ public class RewardsFragment extends Fragment {
 
         recyclerView = view.findViewById(R.id.recycler_view);
         recyclerView2 = view.findViewById(R.id.recycler_view2);
-//        progressBar = view.findViewById(R.id.progress_bar);
 
 
         ArrayList<SlideModel> imageList = new ArrayList<>();
@@ -138,7 +136,6 @@ public class RewardsFragment extends Fragment {
     };
 
     private void fetchData() {
-//        progressBar.setVisibility(View.VISIBLE);
         RetrofitClient.getRetrofitClient().getData().enqueue(new Callback<List<DataModel>>() {
             @Override
             public void onResponse(Call<List<DataModel>> call, Response<List<DataModel>> response) {
@@ -157,19 +154,15 @@ public class RewardsFragment extends Fragment {
                     System.out.println(dataModelList.size());
                     System.out.println(dataModelList2.size());
 
-//                    dataModelList.addAll(response.body());
                     rewardsAdapter.notifyDataSetChanged();
 
 
-//                    dataModelList2.addAll(response.body());
                     rewardsAdapter2.notifyDataSetChanged();
-//                    progressBar.setVisibility(View.GONE);
                 }
             }
 
             @Override
             public void onFailure(Call<List<DataModel>> call, Throwable t) {
-//                progressBar.setVisibility(View.GONE);
                 Toast.makeText(getContext(), "Error", Toast.LENGTH_SHORT).show();
             }
         });

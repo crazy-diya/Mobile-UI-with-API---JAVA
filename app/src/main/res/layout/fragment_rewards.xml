@@ -11,7 +11,7 @@
     <com.denzcoskun.imageslider.ImageSlider
         android:id="@+id/imageSlider"
         android:layout_width="match_parent"
-        android:layout_height="260dp"
+        android:layout_height="310dp"
         app:iss_selected_dot="@drawable/seelcted_dot"
         app:iss_unselected_dot="@drawable/un_seleted_dot"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/archivo_black"
         android:text="@string/rewards"
         android:textColor="@color/white"

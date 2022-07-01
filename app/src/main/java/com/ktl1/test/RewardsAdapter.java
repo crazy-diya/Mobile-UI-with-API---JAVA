@@ -64,13 +64,8 @@ public class RewardsAdapter extends RecyclerView.Adapter<RewardsAdapter.ViewHold
         ImageView imageView;
         TextView title, description, date, btnText;
         CardView btn, crdView2;
-        //        Carousel carousel;
-//        ImageSlider imageSlider;
-
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-//            carousel = itemView.findViewById(R.id.carouselView);
-//            imageSlider = itemView.findViewById(R.id.image_slider);
             imageView = itemView.findViewById(R.id.image);
             title = itemView.findViewById(R.id.crd_title);
             description = itemView.findViewById(R.id.crd_dec);
