@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="@string/home_tab" />
+    <item
+        android:id="@+id/nav_categories"
+        android:icon="@drawable/find"
+        android:title="@string/categories_tag" />
+    <item
+        android:id="@+id/nav_rewards"
+        android:icon="@drawable/medal"
+        android:title="@string/rewards_tag"/>
+    <item
+        android:id="@+id/nav_load"
+        android:icon="@drawable/load"
+        android:title="@string/load_tag" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/person"
+        android:title="@string/profile_tag" />
+</menu>

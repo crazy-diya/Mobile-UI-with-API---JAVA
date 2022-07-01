@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="home_tab">Home</string>
+    <string name="categories_tag">Categories</string>
+    <string name="rewards_tag">Rewards</string>
+    <string name="load_tag">LoaderBoard</string>
+    <string name="profile_tag">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all">All</string>
+    <string name="goal">Goal</string>
+    <string name="partnar">Partnar</string>
+    <string name="union_nassurance">UNION\nASSURANCE</string>
+    <string name="title_description">Insurance cover from union assurance</string>
+    <string name="insurance_cover">Insurance Cover</string>
+    <string name="rewards">Rewards</string>
+    <string name="not_complete_rewards">Not Complete Rewards</string>
+    <string name="completed_rewards">Completed Rewards</string>
+</resources>
