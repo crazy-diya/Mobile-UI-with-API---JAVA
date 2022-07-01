@@ -1,7 +1,7 @@
 # Mobile-UI-with-API---JAVA
 Mobile application with Android Java Fragment RecyclerView Retrofit API Beautiful UI XML 
 
-<img src="https://user-images.githubusercontent.com/61883398/176957151-1389b105-b770-4c37-9d1c-502104960828.png" width="100" height="450">
+<img src="https://user-images.githubusercontent.com/61883398/176957151-1389b105-b770-4c37-9d1c-502104960828.png" width="200">
 <!-- <img src="https://user-images.githubusercontent.com/61883398/176957165-31d94806-ebac-4725-8251-16fac0f4ad62.png)
 <img src="https://user-images.githubusercontent.com/61883398/176957185-68ccc555-cf1e-4cbf-b532-96717ddec2fd.png)
 <img src="https://user-images.githubusercontent.com/61883398/176957200-e6ef8d81-131e-4372-8e95-f19fd4125851.png)
