@@ -8,6 +8,17 @@
     android:padding="12dp"
     tools:context=".RewardsFragment">
 
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:iss_selected_dot="@drawable/seelcted_dot"
+        app:iss_unselected_dot="@drawable/un_seleted_dot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -91,11 +102,8 @@
         android:layout_marginTop="85dp"
         android:elevation="0dp"
         android:foregroundGravity="center"
-        android:outlineAmbientShadowColor="@color/white"
         android:outlineProvider="background"
-        android:outlineSpotShadowColor="@color/white"
         android:textAlignment="center"
-        android:textAllCaps="false"
         app:cardCornerRadius="25dp"
         app:flow_verticalAlign="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,14 +126,12 @@
                 android:layout_weight="1"
                 android:backgroundTint="@color/light_yellow"
                 android:clickable="true"
-                android:contextClickable="true"
-                android:focusable="true"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:outlineProvider="none"
                 app:cardCornerRadius="25dp"
-                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+                tools:ignore="TouchTargetSizeCheck">
 
                 <TextView
+                    android:id="@+id/t1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -135,16 +141,17 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:focusable="true"
                 android:outlineProvider="none"
                 app:cardCornerRadius="25dp"
                 tools:ignore="TouchTargetSizeCheck">
 
                 <TextView
+                    android:id="@+id/t2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -153,16 +160,17 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                app:cardCornerRadius="25dp"
+                android:id="@+id/card3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:focusable="true"
                 android:outlineProvider="none"
-                app:cardCornerRadius="25dp"
-                tools:ignore="TouchTargetSizeCheck">
+               >
 
                 <TextView
+                    android:id="@+id/t3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -204,7 +212,9 @@
                 android:id="@+id/recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:backgroundTint="@android:color/transparent"
+                android:background="@android:color/transparent">
 
             </androidx.recyclerview.widget.RecyclerView>
 

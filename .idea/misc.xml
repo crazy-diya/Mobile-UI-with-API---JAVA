@@ -8,17 +8,22 @@
         <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/background_main.xml" value="0.148" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/botom_item.xml" value="0.162" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/button_shape.xml" value="0.172" />
+        <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/card_btn.xml" value="0.255" />
+        <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/detail_card.xml" value="0.126" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/ic_background.xml" value="0.1" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/ic_launcher_background.xml" value="0.162" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/item_selector.xml" value="0.127" />
+        <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/seelcted_dot.xml" value="0.197" />
+        <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/slider.xml" value="0.197" />
+        <entry key="..\:/Android_Pro/Test/app/src/main/res/drawable/un_seleted_dot.xml" value="0.197" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/layout-v28/fragment_rewards.xml" value="0.264" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/activity_main.xml" value="0.259375" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/fragment_categories.xml" value="0.259375" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/fragment_load.xml" value="0.259375" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/fragment_profile.xml" value="0.259375" />
-        <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/fragment_rewards.xml" value="0.4" />
-        <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/reward_item.xml" value="0.6" />
+        <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/fragment_rewards.xml" value="0.264" />
+        <entry key="..\:/Android_Pro/Test/app/src/main/res/layout/reward_item.xml" value="0.4" />
         <entry key="..\:/Android_Pro/Test/app/src/main/res/menu/item_menu.xml" value="0.259375" />
       </map>
     </option>
